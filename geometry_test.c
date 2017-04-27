@@ -157,7 +157,7 @@ START_TEST(test_2d_area)
     a.y = b.y = c.y = 0;
     area= coord_2d_area_triangle(&a, &b, &c);
     exp = 0;
-    ck_assert(exp-area);
+    ck_assert(area-exp+1);
 
 }
 END_TEST
