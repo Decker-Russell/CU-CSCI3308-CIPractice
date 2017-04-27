@@ -1,7 +1,7 @@
 install: make get-deps
 ./configure && make && make test
 language: c
-script: scons
+script: ./geometry_test
 compile: - gcc
 before_install:
   - test -n $CC && unset CC
