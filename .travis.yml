@@ -1,4 +1,4 @@
-install: make get-deps ./configure && make && make test
+install: make get-deps ./configure && make && make geometry_test
 language: c
 script: make geometry_test
 compile: gcc
