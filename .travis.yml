@@ -2,5 +2,4 @@ install: make get-deps
 language: c
 script: make test
 compile: gcc
-before_install:
-  - test -n $CC && unset CC
+
